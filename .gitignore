@@ -1,0 +1,16 @@
+# Private photos must never be uploaded
+own_photos/
+own_photos*.zip
+*.jpg
+*.jpeg
+*.png
+*.heic
+
+# Model files are large
+*.keras
+
+# Working files used to build the notebook
+notebook_src.txt
+build_notebook.js
+RPS_CNN_source_build.ipynb
+professor_test_cell.py

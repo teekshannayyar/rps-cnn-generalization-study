@@ -1,0 +1,134 @@
+{
+ "photos": 262,
+ "per_class": [
+  87,
+  87,
+  88
+ ],
+ "duplicates_skipped": 6,
+ "results": {
+  "final_rps_model.keras": {
+   "correct": 235,
+   "total": 262,
+   "accuracy": 0.8969465648854962,
+   "per_class": [
+    84,
+    79,
+    72
+   ],
+   "predicted": [
+    93,
+    91,
+    78
+   ],
+   "mean_confidence": 0.9276576638221741
+  },
+  "small_set_model.keras": {
+   "correct": 227,
+   "total": 262,
+   "accuracy": 0.8664122137404581,
+   "per_class": [
+    78,
+    71,
+    78
+   ],
+   "predicted": [
+    86,
+    80,
+    96
+   ],
+   "mean_confidence": 0.9319802522659302
+  },
+  "small_shadow_model.keras": {
+   "correct": 233,
+   "total": 262,
+   "accuracy": 0.8893129770992366,
+   "per_class": [
+    77,
+    76,
+    80
+   ],
+   "predicted": [
+    80,
+    89,
+    93
+   ],
+   "mean_confidence": 0.937562882900238
+  },
+  "final_rps_model_own.keras": {
+   "correct": 240,
+   "total": 262,
+   "accuracy": 0.916030534351145,
+   "per_class": [
+    81,
+    77,
+    82
+   ],
+   "predicted": [
+    86,
+    83,
+    93
+   ],
+   "mean_confidence": 0.9431824684143066
+  },
+  "small_set_model_own.keras": {
+   "correct": 239,
+   "total": 262,
+   "accuracy": 0.9122137404580153,
+   "per_class": [
+    77,
+    77,
+    85
+   ],
+   "predicted": [
+    80,
+    81,
+    101
+   ],
+   "mean_confidence": 0.9540408849716187
+  },
+  "small_shadow_model_own.keras": {
+   "correct": 242,
+   "total": 262,
+   "accuracy": 0.9236641221374046,
+   "per_class": [
+    82,
+    76,
+    84
+   ],
+   "predicted": [
+    86,
+    80,
+    96
+   ],
+   "mean_confidence": 0.9533567428588867
+  }
+ },
+ "paired": {
+  "final_rps_model.keras vs small_shadow_model.keras": {
+   "only_first": 12,
+   "only_second": 10,
+   "p": 0.8318119049072266
+  },
+  "final_rps_model.keras vs final_rps_model_own.keras": {
+   "only_first": 8,
+   "only_second": 13,
+   "p": 0.38331031799316406
+  },
+  "small_set_model.keras vs small_set_model_own.keras": {
+   "only_first": 3,
+   "only_second": 15,
+   "p": 0.007537841796875
+  },
+  "small_shadow_model.keras vs small_shadow_model_own.keras": {
+   "only_first": 1,
+   "only_second": 10,
+   "p": 0.01171875
+  },
+  "final_rps_model.keras vs small_shadow_model_own.keras": {
+   "only_first": 7,
+   "only_second": 14,
+   "p": 0.18924713134765625
+  }
+ }
+}
